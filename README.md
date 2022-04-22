@@ -5,6 +5,10 @@
 
 It is a module that crawls sites and extracts basic information on any web page of interest to site owners in general, and SEO specialists in particular, which enables them to use that information in analyzing the efficiency and performance of their site in search engines.
 
+## Before you continue 🚀
+
+this project is moved to [`Syrian Open Source`](https://github.com/Syrian-Open-Source/Spido), where you can find the source code, documentation, and contribute to it.
+
 ## Features🥁
 
 - Crawling: The module can crawl the entire internal links of any site, and extract SEO information from site pages
@@ -12,7 +16,7 @@ It is a module that crawls sites and extracts basic information on any web page 
 
 ## Installation 📦
 
-`npm install spido --save`  or  `yarn add spido`
+`npm install spido --save` or `yarn add spido`
 
 ## Usage ⌨️
 
@@ -55,18 +59,17 @@ spido.crawl(url, (err, data) => {
 
 spido can be used as a command line tool, which can return the SEO information and print it on the console.
 
-- fetch: ``spido -u <url> -f``
+- fetch: `spido -u <url> -f`
 
 ```
 $ spido -u https://www.example.com -f
 ```
 
-- crawl: ``spido -u <url> -c``
+- crawl: `spido -u <url> -c`
 
 ```
 $ spido -u https://www.example.com -c
 ```
-
 
 ## Bug Fixes 🐛
 
